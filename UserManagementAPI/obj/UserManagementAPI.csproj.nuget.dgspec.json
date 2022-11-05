@@ -4,6 +4,70 @@
     "C:\\Source\\UserManagementAPI\\UserManagementAPI\\UserManagementAPI.csproj": {}
   },
   "projects": {
+    "C:\\Source\\UserManagementAPI\\Application\\Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Source\\UserManagementAPI\\Application\\Application.csproj",
+        "projectName": "Application",
+        "projectPath": "C:\\Source\\UserManagementAPI\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\se\\.nuget\\packages\\",
+        "outputPath": "C:\\Source\\UserManagementAPI\\Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\se\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Source\\UserManagementAPI\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Source\\UserManagementAPI\\Persistence\\Persistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Source\\UserManagementAPI\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -162,6 +226,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Source\\UserManagementAPI\\Application\\Application.csproj": {
+                "projectPath": "C:\\Source\\UserManagementAPI\\Application\\Application.csproj"
+              },
               "C:\\Source\\UserManagementAPI\\Persistence\\Persistence.csproj": {
                 "projectPath": "C:\\Source\\UserManagementAPI\\Persistence\\Persistence.csproj"
               }
@@ -178,6 +245,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -193,6 +264,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Collections": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
