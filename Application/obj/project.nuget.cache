@@ -1,16 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "wdhHjvhc3Bbbm0kYBAkmKDOtFM+NJOWv8HmiosTSNhZLLaH+k8zCd14zphylrQsOsRTU+7OzsZu68iHLSf5a/g==",
+  "dgSpecHash": "RNliHQfGHJNgoWOFFdVmQPSulncmvAA6shJZwMUTnyjUsU1cJ+bhKoy0L+D86xtaCrc8GpD2dWz+ZmIfEttPfg==",
   "success": true,
   "projectFilePath": "C:\\Source\\UserManagementAPI\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\se\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\se\\.nuget\\packages\\automapper.collection\\9.0.0\\automapper.collection.9.0.0.nupkg.sha512",
+    "C:\\Users\\se\\.nuget\\packages\\latticework.cs\\1.0.16\\latticework.cs.1.0.16.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.10\\microsoft.aspnetcore.cryptography.internal.6.0.10.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.10\\microsoft.aspnetcore.cryptography.keyderivation.6.0.10.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\6.0.10\\microsoft.aspnetcore.identity.entityframeworkcore.6.0.10.nupkg.sha512",
-    "C:\\Users\\se\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\se\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.10\\microsoft.entityframeworkcore.6.0.10.nupkg.sha512",
@@ -53,5 +56,16 @@
     "C:\\Users\\se\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\se\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'latticework.cs 1.0.16' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "latticework.cs",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

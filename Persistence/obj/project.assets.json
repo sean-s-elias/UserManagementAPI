@@ -11,6 +11,27 @@
           "lib/netstandard2.0/Humanizer.dll": {}
         }
       },
+      "latticework.cs/1.0.16": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Lw.BusinessLogic.EF.EF5.Net45.dll": {},
+          "lib/net45/Lw.BusinessLogic.Net45.dll": {},
+          "lib/net45/Lw.ComponentModel.DataAnnotations.Net45.dll": {},
+          "lib/net45/Lw.Core.Net451.dll": {},
+          "lib/net45/Lw.DirectoryServices.Net45.dll": {},
+          "lib/net45/Lw.EntityFramework.EF5.Net45.dll": {},
+          "lib/net45/latticework.cs.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Lw.BusinessLogic.EF.EF5.Net45.dll": {},
+          "lib/net45/Lw.BusinessLogic.Net45.dll": {},
+          "lib/net45/Lw.ComponentModel.DataAnnotations.Net45.dll": {},
+          "lib/net45/Lw.Core.Net451.dll": {},
+          "lib/net45/Lw.DirectoryServices.Net45.dll": {},
+          "lib/net45/Lw.EntityFramework.EF5.Net45.dll": {},
+          "lib/net45/latticework.cs.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.10": {
         "type": "package",
         "compile": {
@@ -727,6 +748,24 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "latticework.cs/1.0.16": {
+      "sha512": "cHQuxrK1H7eJsCErg9UIcGzQ4OFB7qQ1ORgl/bQ1TvcQRbuG/Btqxmof4eASSOgrj+p7ei3sS3Ypgmj7FpO3Cw==",
+      "type": "package",
+      "path": "latticework.cs/1.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "latticework.cs.1.0.16.nupkg.sha512",
+        "latticework.cs.nuspec",
+        "lib/net45/Lw.BusinessLogic.EF.EF5.Net45.dll",
+        "lib/net45/Lw.BusinessLogic.Net45.dll",
+        "lib/net45/Lw.ComponentModel.DataAnnotations.Net45.dll",
+        "lib/net45/Lw.Core.Net451.dll",
+        "lib/net45/Lw.DirectoryServices.Net45.dll",
+        "lib/net45/Lw.EntityFramework.EF5.Net45.dll",
+        "lib/net45/latticework.cs.dll"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.10": {
@@ -2033,7 +2072,8 @@
       "Domain >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.10",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.10",
+      "latticework.cs >= 1.0.16"
     ]
   },
   "packageFolders": {
@@ -2092,6 +2132,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.10, )"
+          },
+          "latticework.cs": {
+            "target": "Package",
+            "version": "[1.0.16, )"
           }
         },
         "imports": [
@@ -2112,5 +2156,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'latticework.cs 1.0.16' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "latticework.cs",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

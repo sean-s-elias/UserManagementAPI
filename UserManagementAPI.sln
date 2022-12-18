@@ -3,22 +3,27 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagementAPI", "UserManagementAPI\UserManagementAPI.csproj", "{7EBDCDFD-B85A-426D-87A2-C233E907DC84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagementAPI", "UserManagementAPI\UserManagementAPI.csproj", "{7EBDCDFD-B85A-426D-87A2-C233E907DC84}"
 	ProjectSection(ProjectDependencies) = postProject
 		{0B229B07-57B0-4298-A16C-62A4416AB592} = {0B229B07-57B0-4298-A16C-62A4416AB592}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{0B229B07-57B0-4298-A16C-62A4416AB592}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{0B229B07-57B0-4298-A16C-62A4416AB592}"
 	ProjectSection(ProjectDependencies) = postProject
 		{3306BCBD-6007-41F5-8DC4-5D5C19808E8D} = {3306BCBD-6007-41F5-8DC4-5D5C19808E8D}
 		{04D9D3FD-2332-4661-969D-E4444E09D614} = {04D9D3FD-2332-4661-969D-E4444E09D614}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{04D9D3FD-2332-4661-969D-E4444E09D614}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{04D9D3FD-2332-4661-969D-E4444E09D614}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{3306BCBD-6007-41F5-8DC4-5D5C19808E8D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{3306BCBD-6007-41F5-8DC4-5D5C19808E8D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{04D9D3FD-2332-4661-969D-E4444E09D614} = {04D9D3FD-2332-4661-969D-E4444E09D614}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Usermanagement.Tests", "Usermanagement.Tests\Usermanagement.Tests.csproj", "{7CE8D7E0-519A-4482-A883-45F7F0A8CE41}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0B229B07-57B0-4298-A16C-62A4416AB592} = {0B229B07-57B0-4298-A16C-62A4416AB592}
 	EndProjectSection
 EndProject
 Global
@@ -43,6 +48,10 @@ Global
 		{3306BCBD-6007-41F5-8DC4-5D5C19808E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3306BCBD-6007-41F5-8DC4-5D5C19808E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3306BCBD-6007-41F5-8DC4-5D5C19808E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CE8D7E0-519A-4482-A883-45F7F0A8CE41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CE8D7E0-519A-4482-A883-45F7F0A8CE41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CE8D7E0-519A-4482-A883-45F7F0A8CE41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CE8D7E0-519A-4482-A883-45F7F0A8CE41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

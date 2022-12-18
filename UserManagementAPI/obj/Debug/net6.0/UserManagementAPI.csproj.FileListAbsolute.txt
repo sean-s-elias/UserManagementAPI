@@ -74,3 +74,13 @@ C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\MediatR.Contracts
 C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Application.dll
 C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Application.pdb
 C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\AutoMapper.Collection.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Lw.BusinessLogic.EF.EF5.Net45.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Lw.BusinessLogic.Net45.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Lw.ComponentModel.DataAnnotations.Net45.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Lw.Core.Net451.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Lw.DirectoryServices.Net45.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\Lw.EntityFramework.EF5.Net45.dll
+C:\Source\UserManagementAPI\UserManagementAPI\bin\Debug\net6.0\latticework.cs.dll

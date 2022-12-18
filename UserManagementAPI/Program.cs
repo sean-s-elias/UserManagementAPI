@@ -1,3 +1,4 @@
+using Application.Core;
 using Application.Interfaces;
 using Application.Query;
 using Application.Services;
@@ -19,9 +20,9 @@ builder.Services.AddEndpointsApiExplorer();
 /// </summary>
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DataContext>(x => x.UseSqlServer(connectionString));
-
-builder.Services.AddMediatR(typeof(UserQuery));
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddMediatR(typeof(UserQuery)); //By giving it the location of one handler, then it will look in the same assembly for any other classes that are handlers
+builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
+builder.Services.AddTransient<IUserService, UserService>();
 
 var app = builder.Build();
 

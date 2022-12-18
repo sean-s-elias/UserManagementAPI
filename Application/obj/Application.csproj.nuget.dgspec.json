@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[11.0.0, )"
@@ -181,6 +189,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.10, )"
+            },
+            "latticework.cs": {
+              "target": "Package",
+              "version": "[1.0.16, )"
             }
           },
           "imports": [
